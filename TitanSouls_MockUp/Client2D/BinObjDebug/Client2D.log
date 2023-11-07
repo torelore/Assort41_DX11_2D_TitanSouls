@@ -1,0 +1,6 @@
+﻿  unity_JUZ5FZPW5MM4KZ6B.cpp
+C:\Users\tore\source\TitanSouls_MockUp\Client2D\Include\Scene\StartingRuinSceneInfo.cpp(346,32): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tore\source\TitanSouls_MockUp\Client2D\Include\Scene\StartingRuinSceneInfo.cpp(367,30): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tore\source\TitanSouls_MockUp\Client2D\Include\GameObject\Player.cpp(1302): warning C4172: 지역 변수 또는 임시: stdState의 주소를 반환하고 있습니다.
+C:\Users\tore\source\TitanSouls_MockUp\Engine\Include\Animation\Animation2D.h(89): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  Client2D.vcxproj -> C:\Users\tore\source\TitanSouls_MockUp\Client2D\Bin\Client2D_Debug.exe

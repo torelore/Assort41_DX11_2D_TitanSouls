@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. ClientManager">
+      <UniqueIdentifier>{42d32be8-be09-4548-8989-d99b4695dbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{ac738080-1e93-46d7-bf21-2344dc8838e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{61235511-6738-4291-823b-0c51a509d816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Setting">
+      <UniqueIdentifier>{0f3065b3-02ce-4fb7-a78c-e13ace4d09e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{d1e13e30-88be-4c8d-85f6-d4bd61d9bb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\ETC">
+      <UniqueIdentifier>{1c22caeb-7a2f-4390-91aa-695811906bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI\ETC">
+      <UniqueIdentifier>{30aebe6c-6661-43c5-ace7-fd188ccfa88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\ETC">
+      <UniqueIdentifier>{6cc4982e-c835-4182-bad1-95c0522e9b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Titan">
+      <UniqueIdentifier>{ff245cec-475a-4fe1-95d6-52bf8512f6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Titan\Goliath">
+      <UniqueIdentifier>{3feaaa5d-ee05-435d-937c-c6c95a3e0308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Titan\Yeti">
+      <UniqueIdentifier>{db322955-9563-44df-aac4-bd78b454732b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Titan\Knight">
+      <UniqueIdentifier>{e740cf68-abd8-4e1c-b63f-d9eda9bd6526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Titan\Slime">
+      <UniqueIdentifier>{5d6ddbeb-f400-4f9b-aa7f-3621010a1e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Player">
+      <UniqueIdentifier>{ae09fe04-5792-4893-b2d0-885f17732e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\ETC\Practice">
+      <UniqueIdentifier>{14071105-0dce-4ef2-8489-980762fd0a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene\Titan">
+      <UniqueIdentifier>{86c2a70f-167e-4f9f-aed0-2fae474b74b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>01. ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\DefaultSetting.cpp">
+      <Filter>04. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\EngineShareSetting.cpp">
+      <Filter>04. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadingSceneInfo.cpp">
+      <Filter>02. Scene\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MainSceneInfo.cpp">
+      <Filter>02. Scene\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoadingUI.cpp">
+      <Filter>05. UI\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StartSceneUI.cpp">
+      <Filter>05. UI\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Goliath.cpp">
+      <Filter>03. GameObject\Titan\Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GoliathHand.cpp">
+      <Filter>03. GameObject\Titan\Goliath</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\KnightArrow.cpp">
+      <Filter>03. GameObject\Titan\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\KnightElahan.cpp">
+      <Filter>03. GameObject\Titan\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Sludgeheart.cpp">
+      <Filter>03. GameObject\Titan\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\KnightPillar.cpp">
+      <Filter>03. GameObject\Titan\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Yeti.cpp">
+      <Filter>03. GameObject\Titan\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\YetiIcicle.cpp">
+      <Filter>03. GameObject\Titan\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\YetiSnow.cpp">
+      <Filter>03. GameObject\Titan\Yeti</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Arrow.cpp">
+      <Filter>03. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player.cpp">
+      <Filter>03. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>03. GameObject\ETC\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Monster.cpp">
+      <Filter>03. GameObject\ETC\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player2D.cpp">
+      <Filter>03. GameObject\ETC\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Portal.cpp">
+      <Filter>03. GameObject\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameDefaultUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TitleSceneUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\KnightSceneInfo.cpp">
+      <Filter>02. Scene\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SlimeSceneInfo.cpp">
+      <Filter>02. Scene\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StartingRuinSceneInfo.cpp">
+      <Filter>02. Scene\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\YetiSceneInfo.cpp">
+      <Filter>02. Scene\Titan</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GoliathDoor.cpp">
+      <Filter>03. GameObject\ETC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>01. ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\DefaultSetting.h">
+      <Filter>04. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\EngineShareSetting.h">
+      <Filter>04. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadingSceneInfo.h">
+      <Filter>02. Scene\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MainSceneInfo.h">
+      <Filter>02. Scene\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoadingUI.h">
+      <Filter>05. UI\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StartSceneUI.h">
+      <Filter>05. UI\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Goliath.h">
+      <Filter>03. GameObject\Titan\Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GoliathHand.h">
+      <Filter>03. GameObject\Titan\Goliath</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\KnightArrow.h">
+      <Filter>03. GameObject\Titan\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\KnightElahan.h">
+      <Filter>03. GameObject\Titan\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Sludgeheart.h">
+      <Filter>03. GameObject\Titan\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\KnightPillar.h">
+      <Filter>03. GameObject\Titan\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Yeti.h">
+      <Filter>03. GameObject\Titan\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\YetiIcicle.h">
+      <Filter>03. GameObject\Titan\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\YetiSnow.h">
+      <Filter>03. GameObject\Titan\Yeti</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Arrow.h">
+      <Filter>03. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player.h">
+      <Filter>03. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>03. GameObject\ETC\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Monster.h">
+      <Filter>03. GameObject\ETC\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player2D.h">
+      <Filter>03. GameObject\ETC\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Portal.h">
+      <Filter>03. GameObject\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameDefaultUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TitleSceneUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\KnightSceneInfo.h">
+      <Filter>02. Scene\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SlimeSceneInfo.h">
+      <Filter>02. Scene\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StartingRuinSceneInfo.h">
+      <Filter>02. Scene\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\YetiSceneInfo.h">
+      <Filter>02. Scene\Titan</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GoliathDoor.h">
+      <Filter>03. GameObject\ETC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
